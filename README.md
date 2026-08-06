@@ -19,7 +19,7 @@ NumPy
 Pandas
 
 # Exemplo de uso:
-
+```python
 import pandas as pd
 from Logistic_Regression import LogisticRegression
 
@@ -31,3 +31,4 @@ y = pd.Series([0, 0, 1, 1])
 modelo = LogisticRegression(epocas=100, lr=0.1)
 modelo.fit(X, y)
 previsoes = modelo.predict(X)
+```
