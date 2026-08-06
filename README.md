@@ -1,4 +1,4 @@
-Regressão Logística do Zero
+# Regressão Logística do Zero
 Implementação didática do algoritmo de Regressão Logística em Python, desenvolvida do zero sem o uso de bibliotecas de Machine Learning como Scikit-Learn.
 
 Funcionamento
@@ -10,7 +10,8 @@ fit: Inicializa os pesos e o viés zerados, realiza a combinação linear e apli
 
 predict: Aplica os parâmetros ajustados aos novos dados e retorna a classificação final (0 ou 1) adotando um limiar de 0.5.
 
-Ferramentas
+# Ferramentas
+
 Python
 
 NumPy
