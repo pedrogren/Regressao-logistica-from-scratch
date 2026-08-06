@@ -12,7 +12,5 @@ predict: Aplica os par√¢metros ajustados aos novos dados e retorna a classifica√
 
 Ferramentas
 Python 3
-
 NumPy
-
 Pandas
