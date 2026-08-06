@@ -20,14 +20,9 @@ Pandas
 
 # Exemplo de uso:
 ```python
-import pandas as pd
-from Logistic_Regression import LogisticRegression
-
-# Dados de exemplo
 X = pd.DataFrame({'f1': [1.0, 2.0, 3.0, 4.0], 'f2': [0.5, 1.0, 1.5, 2.0]})
 y = pd.Series([0, 0, 1, 1])
 
-# Instanciação, treino e predição
 modelo = LogisticRegression(epocas=100, lr=0.1)
 modelo.fit(X, y)
 previsoes = modelo.predict(X)
