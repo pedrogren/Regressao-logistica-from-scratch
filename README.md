@@ -1,1 +1,1 @@
-# Regress-o-logistica-from-scratch
+Regressão logistica implementada com conhecimentos básicos em python
