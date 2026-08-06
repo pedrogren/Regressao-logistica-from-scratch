@@ -11,6 +11,8 @@ fit: Inicializa os pesos e o viés zerados, realiza a combinação linear e apli
 predict: Aplica os parâmetros ajustados aos novos dados e retorna a classificação final (0 ou 1) adotando um limiar de 0.5.
 
 Ferramentas
-Python 3
+Python
+
 NumPy
+
 Pandas
